@@ -1,0 +1,26 @@
+{%extends "layout.html"%}
+{%block content%}
+<div class = "dictionary">
+    <head>
+        <style>
+            body{
+                background-image: url(/Users/alfredleong/Desktop/PythonPrograms/Webpage/PersonalWeb/static/komachi.jpg);
+            }
+            #txt{
+                width: 700px;
+            }
+        </style>
+    </head>
+    <body> 
+        <center>
+            <div id='dd'>
+            <h1><u>The Ultimate Imouto Dictionary:</u>
+                <br><strong>Komachi-Chan</strong>
+            </h1></div>
+            <h2><i>Welcome Back Onii-chan~!</i></h2>
+            <form enctype="application/x-www-form-urlencoded" method="post" action="/Users/alfredleong/Desktop/PythonPrograms/Webpage/PersonalWeb/komachichancopy.py">
+                <input id='txt' type='text' name="user_Input" placeholder="What word do want to define, Onii-chan~"/>
+            </form>
+        </center> 
+    </body>
+</div>
